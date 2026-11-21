@@ -1,0 +1,113 @@
+#intro{
+    width: 200px;
+    height: 200px;
+    background-color: #a15c38;
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 200px;
+}
+h3,p{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    color: black;
+}
+#interesi{
+    width: 200px;
+    height: 200px;
+    background-color: #a15c38;
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 200px;
+}
+#Uchastie{
+    width: 200px;
+    height: 200px;
+    background-color: #a15c38;
+    border-radius: 30px;
+    align-content: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+.Navigaciq{
+    background-color: #bf9d7a;
+    border-radius: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.Navigaciq #btnTheme{
+    position: absolute;
+    right: 10px;
+    transform: scale(0.8);
+    top: 15px;
+    background-color: rgba(209, 201, 201, 0.815);
+    border:none;
+}
+.UchebenPlan #txt
+{
+    width: 200px;
+    height: 18px;
+    border: none;
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 2px;
+}
+.UchebenPlan #btnAdd{
+    background-color: rgb(240, 240, 240);
+    width: 60px;
+    height: 20px;
+    border-radius: 2px;
+    color: black;
+    border: none;
+}
+.filters button
+{
+    border: none;
+    border-radius: 20px;
+}
+.filters
+{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    gap: 10px;
+}
+#progress{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(238, 255, 0);
+    border-radius: 20px;
+    position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        max-width: 100%;
+}
+#progress #bar{
+    height: 10px;
+    max-width: 100%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 0%;
+}
+#infoBar{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+body{
+    background-color: #f8efee;
+}
+
