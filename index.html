@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моето портфолио</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header>
+        <ul class="Navigaciq">
+            <li id="LichiDanni">
+                <a href="#intro">
+                    Лично представяне
+                </a>
+            </li>
+
+            <li id="Plan">
+                <a href="#Sekciq2">
+                    Интерактивен учебен план
+                </a>
+            </li>
+            <li id="theme">
+                <button id="btnTheme" onclick="switchTheme">
+                    Тъмно
+                </button>
+            </li>
+        </ul>
+        <div class="sections">
+            <div id="intro">
+                <h3>
+                Здравейте, аз съм Станислав! Аз съм кандидат за стажантска програма.
+                </h3>
+            </div>
+
+            <div id="interesi">                               
+                <p>
+                    Моите интереси:
+                    <br>
+                    -Разработване на софтуерни приложение чрез езикът C#.
+                    <br>
+                    -Решаване на логически задачи.
+                    <br>
+                    -Желая да науча по-задълбочено създаването на уеб приложения.
+                </p>
+            </div>
+
+            <div id="Uchastie">                               
+                <p>
+                    Желая да участвам в стажа, защото искам да работя по истински проекти и искам да получа подкрепа от хора, които работят в този сектор.
+                </p>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div id="Sekciq2">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all" id="btnAll" onclick="ShowAll">Всички</button>
+                <button class="filter-btn" data-filter="active" id="btnActive" onclick="ShowActive">Активни</button>
+                <button class="filter-btn" data-filter="completed" id="btnDone" onclick="ShowDone">Завършени</button>
+            </div>
+
+            <div class="UchebenPlan">
+                <div>
+                    <input type="text" id="txt">
+                    <button id="btnAdd" onclick="AddPlan">
+                        Добави
+                    </button>
+                </div>
+                <div class="Planove">
+                <ul id="goalsList"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="progress">
+            <div id="bar"></div>
+            <h3 id="infoBar">
+                Общо цели: 0 | Завършени: 0 | Процент: 0%
+            </h3>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
